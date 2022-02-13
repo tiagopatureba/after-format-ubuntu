@@ -34,6 +34,10 @@ sudo snap install phpstorm --classic
 # PHP PGSQL
 sudo apt install php7.4-pgsql -y
 
+# SQLite and DB-Browser
+sudo apt-get install sqlite3 -y
+sudo apt install sqlitebrowser -y
+
 # Notepad++
 sudo snap install notepad-plus-plus -y
 
