@@ -32,7 +32,7 @@ sudo apt install composer -y
 sudo snap install phpstorm --classic
 
 # PHP PGSQL
-sudo apt install php7.4-pgsql
+sudo apt install php7.4-pgsql -y
 
 # Notepad++
 sudo snap install notepad-plus-plus -y
