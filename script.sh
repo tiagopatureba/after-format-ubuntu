@@ -31,6 +31,9 @@ sudo apt install composer -y
 # PHP Storm
 sudo snap install phpstorm --classic
 
+#Visual Studio Code 
+sudo snap install --classic code -y
+
 # PHP PGSQL
 sudo apt install php7.4-pgsql -y
 
