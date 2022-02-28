@@ -34,6 +34,9 @@ sudo snap install phpstorm --classic
 #Visual Studio Code 
 sudo snap install --classic code -y
 
+#Postman 
+sudo snap install postman -y
+
 # PHP PGSQL
 sudo apt install php7.4-pgsql -y
 
