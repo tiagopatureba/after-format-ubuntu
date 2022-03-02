@@ -28,6 +28,9 @@ sudo apt install postgresql-client-common
 # Composer
 sudo apt install composer -y
 
+#PHP Curl
+sudo apt-get install php-curl -y
+
 # PHP Storm
 sudo snap install phpstorm --classic
 
