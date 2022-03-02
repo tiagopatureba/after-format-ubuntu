@@ -28,7 +28,13 @@ sudo apt install postgresql-client-common
 # Composer
 sudo apt install composer -y
 
-#PHP Curl
+# PHP 8
+sudo apt-get install software-properties-common -y
+sudo add-apt-repository ppa:ondrej/php -y
+sudo apt update -y
+sudo apt install php8.0 php8.0-intl php8.0-mysql php8.0-sqlite3 php8.0-gd -y
+
+# PHP Curl
 sudo apt-get install php-curl -y
 
 # PHP Storm
@@ -95,3 +101,5 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
 
+# Update and Upgrade UBUNTU
+sudo apt-get update -y && sudo apt-get upgrade -y
