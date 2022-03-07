@@ -34,6 +34,14 @@ sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update -y
 sudo apt install php8.0 php8.0-intl php8.0-mysql php8.0-sqlite3 php8.0-gd -y
 
+# PHP 8.0 - PDO
+sudo apt-get install php-pgsql -y
+
+# Mysql
+sudo apt update -y
+sudo apt install mysql-server -y
+
+
 # PHP Curl
 sudo apt-get install php-curl -y
 
@@ -59,6 +67,9 @@ sudo apt-get install git-flow -y
 
 # Notepad++
 sudo snap install notepad-plus-plus -y
+
+#FBReader - Leitor de Epub
+sudo apt install fbreader -y
 
 # Gnome Tweaks
 sudo apt install gnome-tweaks -y
